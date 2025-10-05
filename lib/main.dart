@@ -102,7 +102,11 @@ class _MyHomePageState extends State<MyHomePage> {
                   style: ElevatedButton.styleFrom(
                     backgroundColor: Colors.red,
                   ),
-                  child: const Text('Decrement'),
+                  child: const Text('Decrement',
+                    style: TextStyle(
+                    color: Colors.white,
+                    ),
+                  ),
                 ),
                 const SizedBox(width: 10),
                 ElevatedButton(
@@ -110,7 +114,11 @@ class _MyHomePageState extends State<MyHomePage> {
                   style: ElevatedButton.styleFrom(
                     backgroundColor: Colors.grey,
                   ),
-                  child: const Text('Reset'),
+                  child: const Text('Reset',
+                    style: TextStyle(
+                      color: Colors.white,
+                    ),
+                  ),
                 ),
                 const SizedBox(width: 10),
                 ElevatedButton(
@@ -118,7 +126,11 @@ class _MyHomePageState extends State<MyHomePage> {
                   style: ElevatedButton.styleFrom(
                     backgroundColor: Colors.green,
                   ),
-                  child: const Text('Increment'),
+                  child: const Text('Increment',
+                    style: TextStyle(
+                      color: Colors.white,
+                    ),
+                  ),
                 ),
               ],
             ),
