@@ -94,7 +94,7 @@ class _MyHomePageState extends State<MyHomePage> {
             const Text(
               'Counter Value:',
               style: TextStyle(
-                  fontSize: 20,
+                  fontSize: 25,
                   fontWeight: FontWeight.bold,
               ),
             ),
@@ -111,11 +111,10 @@ class _MyHomePageState extends State<MyHomePage> {
                   style: ElevatedButton.styleFrom(
                     backgroundColor: Colors.red,
                   ),
-                  child: const Text('Decrement',
-                    style: TextStyle(
-                      color: Colors.white,
-                      fontWeight: FontWeight.bold,
-                    ),
+                  child: const Icon(Icons.remove,
+                    color: Colors.white,
+                    fontWeight: FontWeight.bold,
+                    size: 30,
                   ),
                 ),
                 const SizedBox(width: 10),
@@ -124,11 +123,10 @@ class _MyHomePageState extends State<MyHomePage> {
                   style: ElevatedButton.styleFrom(
                     backgroundColor: Colors.grey,
                   ),
-                  child: const Text('Reset',
-                    style: TextStyle(
-                      color: Colors.white,
-                      fontWeight: FontWeight.bold,
-                    ),
+                  child: const Icon(Icons.refresh,
+                    color: Colors.white,
+                    fontWeight: FontWeight.bold,
+                    size: 30,
                   ),
                 ),
                 const SizedBox(width: 10),
@@ -137,11 +135,10 @@ class _MyHomePageState extends State<MyHomePage> {
                   style: ElevatedButton.styleFrom(
                     backgroundColor: Colors.green,
                   ),
-                  child: const Text('Increment',
-                    style: TextStyle(
-                      color: Colors.white,
-                      fontWeight: FontWeight.bold,
-                    ),
+                  child: const Icon(Icons.add,
+                    color: Colors.white,
+                    fontWeight: FontWeight.bold,
+                    size: 30,
                   ),
                 ),
               ],
